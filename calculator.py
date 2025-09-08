@@ -4,6 +4,26 @@ Created on Sun Sep  7 19:09:39 2025
 
 @author: saofl
 """
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y == 0:
+        return "Error: Division by zero"
+    return x / y
+
+print("=== Simple Calculator ===")
+print("Choose operation:")
+print("1. Add (+)")
+print("2. Subtract (-)")
+print("3. Multiply (*)")
+print("4. Divide (/)")
 
 op = input("Enter your choice (+, -, *, /): ")
 a = float(input("Enter first number: "))
